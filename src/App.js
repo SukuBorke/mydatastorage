@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Login from './UserAuth/Login';
+import Register from './UserAuth/Register';
+import './css/register.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>This is New Content added</h1>
-     <Login/>
+    <Register/>
     </div>
   );
 }
