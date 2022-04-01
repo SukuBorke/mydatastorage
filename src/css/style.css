@@ -1,0 +1,70 @@
+body{
+    background-image: url('/src/img/backimg.jpg');
+}
+.authHeading{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+input[type=text],[type=password]
+{
+    width: 70%;
+    height: 40px;
+    margin: 12px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    
+
+}
+input:focus
+{
+  
+   border: none;
+  
+
+}
+.inpt{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.err{
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.btn{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(241, 103, 10);
+    border: none;
+    color: white;
+}
+.btndiv{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btn:hover{
+    background-color: rgb(244, 114, 14);
+}
+#elink{
+    text-decoration: none;
+   
+    font-weight: bold;
+   
+    color: white;
+}
+#simtxt{
+  text-decoration: none;
+  color: rgb(154, 209, 234);
+  font-weight: bold;
+  padding-right: 5px;
+}
+#formbottom{
+    padding-bottom: 50px;
+}
