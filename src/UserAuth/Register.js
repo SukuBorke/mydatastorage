@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 function Register() {
   const[user,setUser]=useState({})
@@ -14,19 +15,17 @@ function Register() {
   }
   return (
     <div className='regform'>
-      <div className='authHeading'>Login</div>
+      <div className='authHeading'>Create Account</div>
       <div className='inpt'><input type={'text'} placeholder='User Name'></input></div>
       <div className='err'></div>
       <div className='inpt'><input type={'password'} placeholder='Password'></input></div>
       <div className='err'></div>
-      <div className='btndiv'><button className='btn'>Login</button></div>
-      <div id='formbottom'><span id='simtxt'>Not a member</span><a href='#' id='elink'>Create Account</a></div>
+      <div className='inpt'><input type={'password'} placeholder='Confirm Password'></input></div>
+      <div className='err'></div>
+      <div className='btndiv'><button className='btn'>Register</button></div>
+      <div id='formbottom'><span id='simtxt'>Registered already</span><Link id='elink' to="/login">Go to login</Link></div>
       
-
-  
-    
-
-    </div>
+          </div>
   )
 }
 

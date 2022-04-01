@@ -1,8 +1,12 @@
 body{
     background-image: url('/src/img/backimg.jpg');
+    background-size:     cover;     
+               
+    background-repeat:   no-repeat;
+    
 }
 .authHeading{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     padding-top: 30px;
@@ -39,7 +43,7 @@ input:focus
 .btn{
     width: 70%;
     height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     background-color:rgb(241, 103, 10);
     border: none;
