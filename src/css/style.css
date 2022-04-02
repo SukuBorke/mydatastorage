@@ -1,8 +1,6 @@
 body{
     background-image: url('/src/img/backimg.jpg');
-    background-size:     cover;     
-               
-    background-repeat:   no-repeat;
+   
     
 }
 .authHeading{
