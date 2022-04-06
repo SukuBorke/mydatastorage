@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (<>
-         
+         <h1>I dont know it is not updating</h1>
     <div id='homenav'><span><Link className='elink1' to="/login">Login</Link><Link to="/register" className='elink1'>Create Account</Link></span></div>
     <div className="animated-text">
       <div className="line">Do you want to save contacts</div>
