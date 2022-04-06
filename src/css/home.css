@@ -30,15 +30,11 @@
 .line{
   text-transform: uppercase;
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
   line-height: 60px;
      
 }
-@media only screen and (max-width: 1080px) {
-  .line {
-   font-size: 30px;
-  }
-}
+
 
 .line:first-child{
   animation: anim 10s infinite;
